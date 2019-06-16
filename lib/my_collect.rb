@@ -9,4 +9,5 @@ def my_collect(array)
     new_array.push(array[i])
   end
   new_array
+  yield(array(i))
 end
